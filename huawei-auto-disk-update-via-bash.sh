@@ -43,7 +43,8 @@ echo '----------------------------------------------Done with hcloud -----------
 # Download the auto-disk-update script
 echo "FOR HUAWEI_CLOUD"
 cd /root
-curl -o /root/huawei-auto-disk-update.sh https://raw.githubusercontent.com/ashu1211/script-public/refs/heads/main/huawei-auto-disk-update.sh
+# curl -o /root/huawei-auto-disk-update.sh https://raw.githubusercontent.com/ashu1211/script-public/refs/heads/main/huawei-auto-disk-update.sh
+curl -o /root/huawei-auto-disk-update.sh https://raw.githubusercontent.com/instanode-services/huawei/refs/heads/main/huawei-auto-disk-update.sh
 rm -f /root/auto-disk-update.sh
 mv /root/huawei-auto-disk-update.sh /root/auto-disk-update.sh
 chmod +x /root/auto-disk-update.sh
